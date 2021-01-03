@@ -3,7 +3,7 @@ import './UserInput.css';
 
 const UserInput = (props) => {
     return (
-    <div>
+    <div className='input-line'>
         <label className='label'>Change username:</label>
         <input className='input' onChange={props.change} value={props.username}/>
     </div>
